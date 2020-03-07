@@ -1,0 +1,158 @@
+interface NamedEntity {
+  id: ID!
+  name: String!
+}
+
+enum Strand {
+  FORWARD
+  REVERSE
+}
+
+interface StatementWithEvidence {
+   id: ID!
+  statement: String!
+}
+
+type Gene implements NamedEntity,StatementWithEvidence {
+  id: ID!
+  name: String!
+  statement: String!
+  chromosome: String!
+  strand: Strand!
+  start: Int
+  end: Int
+  reference: InternetReference!  @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type Author {
+  id: ID!
+  surname:  String!
+  first_initial:  String!
+  middle_initial: String
+  references:[LiteratureReference!]! @relation(name: "AUTHORED_BY", direction: "IN")
+}
+
+type Journal implements NamedEntity {
+  id: ID!
+  name: String!
+}
+
+interface Reference {
+  id: ID!
+  shortReference: String!
+  statements_referenced: [StatementWithEvidence!]! @relation(name: "REFERENCE_FOR", direction: "IN")
+}
+
+type LiteratureReference implements Reference {
+  id: ID!
+  shortReference: String!
+  statements_referenced: [StatementWithEvidence!]!  @relation(name: "REFERENCE_FOR", direction: "IN")
+  authors : [Author!]!  @relation(name: "AUTHORED_BY", direction: "OUT")
+  title:  String!
+  journal:  Journal!  @relation(name: "PUBLISHED_IN", direction: "OUT")
+  volume: String!
+  first_page:  String!
+  last_page:  String!
+  publication_Year: String!
+  DOI:  String
+  PMID:  String
+}
+
+type InternetReference implements Reference{
+  id: ID!
+  shortReference: String!
+  statements_referenced: [StatementWithEvidence!]!  @relation(name: "REFERENCE_FOR", direction: "IN")
+  web_address: String!
+  accessed_date: String!
+}
+
+
+type Isoform implements NamedEntity {
+  id: ID!
+  name: String!
+  gene: Gene! @relation(name: "TRASCRIBED_FROM", direction: "OUT")
+}
+
+type Polypeptide implements NamedEntity {
+  id: ID!
+  name: String!
+  uniprot_id:String!
+  accessionNumber: String!
+  gene: Gene! @relation(name: "CODED_BY", direction: "OUT")
+  transcript: Isoform! @relation(name: "TRANSLATED_FROM", direction: "OUT")
+}
+
+
+type SubcellularLocation  implements NamedEntity{
+  id: ID!
+  name: String!
+  evidence: [SubcellularLocationWithEvidence]! @relation(name: "SUBCELL", direction: "IN")
+}
+
+
+type SubcellularLocationWithEvidence implements StatementWithEvidence  @relation(name: "LOCATED"){
+  id: ID!
+  statement: String!
+  protein: Protein!  @relation(name: "LOCATED", direction: "IN")
+  location: SubcellularLocation! @relation(name: "SUBCELL", direction: "OUT")
+  reference: [LiteratureReference]! @relation(name: "REFERENCE_FOR", direction: "OUT")
+}
+
+type Pathway  implements NamedEntity{
+  id: ID!
+  name: String!
+  proteins: [Protein]! @relation(name: "PARTICIPATES_IN", direction: "IN")
+}
+
+type Drug implements NamedEntity {
+  id: ID!
+  name: String!
+  concept: String!
+  definition: String!
+  drugCategory: String!
+  synonyms: [String]!
+  annotationDate: String!
+  isAntineoplastic: Boolean!
+  isImmuno: Boolean!
+  modulator: String!
+  target: [Target]! @relation(name: "DRUGED_BY", direction: "IN")
+}
+
+
+type ImmunePhenotype implements NamedEntity{
+  id: ID!
+  name: String!
+  proteins: [Protein]! @relation(name: "PHENOTYPE", direction: "OUT")
+}
+
+type Protein  implements NamedEntity{
+  id: ID!
+  name: String!
+  synonyms: [String]!
+  polypeptide_chains: [Polypeptide]! @relation(name: "MONOMER", direction: "OUT")
+  location: [SubcellularLocationWithEvidence]! @relation(name: "LOCATED", direction: "OUT")
+  pathways: [Pathway]! @relation(name: "PARTICIPATES_IN", direction: "OUT")
+  phenotype: ImmunePhenotype  @relation(name: "PHENOTYPE", direction: "IN")
+  variants: [VariantTarget!]!  @relation(name: "VARIANT_OF", direction: "IN")
+  asTarget: [ProteinTarget!]! @relation(name: "AS_TARGET", direction: "IN")
+}
+
+interface Target {
+  id: ID!
+  name: String!
+   drugs: [Drug]! @relation(name: "DRUGED_BY", direction: "OUT")
+}
+
+type ProteinTarget  implements Target{
+  id: ID!
+  name: String!
+  protein: Protein!  @relation(name: "AS_TARGET", direction: "OUT")
+  drugs: [Drug]! @relation(name: "DRUGED_BY", direction: "OUT")
+}
+
+type VariantTarget implements Target{
+  id: ID!
+  name: String!
+  protein: Protein!  @relation(name: "VARIANT_OF", direction: "OUT")
+  drugs: [Drug]! @relation(name: "DRUGED_BY", direction: "OUT")
+}

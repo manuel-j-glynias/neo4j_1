@@ -1,0 +1,290 @@
+drug_class,OmniDrugClass
+ABL Inhibitor (pan),ABL Inhibitor
+ABL1 Inhibitor,ABL Inhibitor
+ABL2 Inhibitor,ABL Inhibitor
+ABL2 Inhibitor(obsoleted),ABL Inhibitor
+Adenosine Targeting,Adenosine Targeting
+Akt Inhibitor (Pan),AKT Inhibitor
+AKT Inhibitor (Pan) - ATP competitive,AKT Inhibitor
+Akt1 Inhibitor,AKT Inhibitor
+Akt2 Inhibitor,AKT Inhibitor
+Akt3 Inhibitor,AKT Inhibitor
+Akt3 Inhibitor(obsoleted),AKT Inhibitor
+ALK Inhibitor,ALK Inhibitor
+Antibiotic Antineoplastic,Antibiotic Antineoplastic
+Anticonvulsant Agent,Anticonvulsant Agent
+Antidiabetic Agent,Antidiabetic Agent
+Antifungal Agent,Antifungal Agent
+Antimicrotubule Agent,Antimicrotubule Agent
+Antisense Therapy,Antisense Therapy
+ARAF Inhibitor,RAF Inhibitor
+ARAF Inhibitor(obsoleted),RAF Inhibitor
+Aromatase Inhibitor,Aromatase Inhibitor
+ATM Inhibitor,ATM Inhibitor
+ATR Inhibitor,ATR Inhibitor
+AURK Inhibitor (Pan),AURK Inhibitor
+Aurka Inhibitors,AURK Inhibitor
+Aurkb Inhibitors,AURK Inhibitor
+Aurkc Inhibitors,AURK Inhibitor
+AXL Inhibitor,AXL Inhibitor
+BCL-XL inhibitor,BCL Inhibitor
+BCL2 Family Inhibitor,BCL Inhibitor
+BCL2 inhibitor,BCL Inhibitor
+BCL6 Inhibitor,BCL Inhibitor
+BCR-ABL Inhibitor,BCR-ABL Inhibitor
+BET  Inhibitor (Pan),BET Inhibitor
+BIRC5 Inhibitor,BIRC Inhibitor
+BRAF Inhibitor,RAF Inhibitor
+BRD2 Inhibitor,BRD Inhibitor
+BRD3  Inhibitor,BRD Inhibitor
+BRD4  Inhibitor,BRD Inhibitor
+BRD4-NUT Inhibitor,BRD-NUT Inhibitor
+BTK inhibitor,BTK Inhibitor
+c-MYC Inhibitor,MYC Inhibitor
+CD19 Antibody,CD19 Antibody
+CD20 Antibody,CD20 Antibody
+CD3 Antibody,CD3 Antibody
+CD33 Antibody,CD33 Antibody
+CD37 Antibody,CD37 Antibody
+CD38 Antibody,CD38 Antibody
+CD39 Antibody,CD39 Antibody
+CD40 Antibody,CD40 Antibody
+CD47 Antibody,CD47 Antibody
+CD73 Antibody,CD73 Antibody
+CDK Inhibitor (Pan),CDK Inhibitor
+CDK1 Inhibitor,CDK Inhibitor
+CDK2 Inhibitor,CDK Inhibitor
+CDK2/4 Inhibitor,CDK Inhibitor
+CDK4 Inhibitor,CDK Inhibitor
+CDK4/6 Inhibitor,CDK Inhibitor
+CDK5 Inhibitor,CDK Inhibitor
+CDK6 Inhibitor,CDK Inhibitor
+CDK7 Inhibitor,CDK Inhibitor
+CDK8 Inhibitor,CDK Inhibitor
+CDK9 Inhibitor,CDK Inhibitor
+Chemotherapy - Alkylating,Chemotherapy
+Chemotherapy - Anthracycline,Chemotherapy
+Chemotherapy - Antimetabolite,Chemotherapy
+Chemotherapy - Platinum,Chemotherapy
+Chemotherapy - Taxane,Chemotherapy
+CHK Inhibitor (Pan),CHK Inhibitor
+CHK1 Inhibitor,CHK Inhibitor
+CHK2 Inhibitor,CHK Inhibitor
+CRAF Inhibitor,RAF Inhibitor
+CSF1 Antibody,CSF Antibody
+CSF1 targeted immunotherapy,CSF Targeted Immunotherapy
+CSF1R Antibody,CSF Antibody
+CSF1R Inhibitor,CSF Inhibitor
+CTLA4 Antibody,CTLA Antibody
+CTNNB1 Inhibitor,CTNNB Inhibitor
+CXCR Antagonist,CXCR Antagonist
+CXCR4 Inhibitor,CXCR Inhibitor
+DDR1 Inhibitor,DDR Inhibitor
+DDR2 inhibitor,DDR Inhibitor
+DLL4 Antibody,DLL Antibody
+DNA_PK Inhibitor,DNA_PK Inhibitor
+DNMT inhibitor (Pan),DNMT Inhibitor
+DNMT1 inhibitor,DNMT Inhibitor
+DOT1L Inhibitor,DOT Inhibitor
+DYRK1A Inhibitor,DYRK Inhibitor
+DYRK1B Inhibitor,DYRK Inhibitor
+EGFR Antibody,EGFR Antibody
+EGFR Immune Cell Therapy,EGFR Immunotherapy
+EGFR Inhibitor (Pan),EGFR Inhibitor
+EGFR Inhibitor 1st gen,EGFR Inhibitor
+EGFR Inhibitor 2nd gen,EGFR Inhibitor
+EGFR Inhibitor 3rd gen,EGFR Inhibitor
+EHMT2 Inhibitor,EHMT Inhibitor
+EPHB4 Inhibitor,EPH Inhibitor
+ERK Inhibitor (pan),ERK Inhibitor
+ERK1 Inhibitor,ERK Inhibitor
+ERK2 Inhibitor,ERK Inhibitor
+EZH1 inhibitor,EZH Inhibitor
+EZH2 inhibitor,EZH Inhibitor
+FAK inhibitor,FAK Inhibitor
+Farnesyltransferase Inhibitor,Farnesyltransferase Inhibitor
+FASN Inhibitor,FASN Inhibitor
+FGFR Inhibitor (Pan),FGFR Inhibitor
+FGFR1 Inhibitor,FGFR Inhibitor
+FGFR2 Antibody,FGFR Antibody
+FGFR2 Inhibitor,FGFR Inhibitor
+FGFR3 Antibody,FGFR Antibody
+FGFR3 Inhibitor,FGFR Inhibitor
+FGFR4 Antibody,FGFR Antibody
+FGFR4 Inhibitor,FGFR Inhibitor
+FLT3 Inhibitor,FLT Inhibitor
+FOLR1-targeted Therapy,FOLR Targeted Therapy
+FRK Inhibitor,FRK Inhibitor
+FRK Inhibitor(obsoleted),FRK Inhibitor
+Gamma secretase inhibitor,Gamma secretase Inhibitor
+GITR Antibody,GITR Antibody
+GLI1/2 inhibitor,GLI Inhibitor
+GR Antagonist,GR Antagonist
+GSK-3alpha Inhibitor,GSK Inhibitor
+GSK-3beta Inhibitor,GSK Inhibitor
+GSK3 Inhibitor (Pan),GSK Inhibitor
+HDAC Inhibitor,HDAC Inhibitor
+HER inhibitor (Pan),HER Inhibitor
+HER2 (ERBB2) Antibody,HER Antibody
+HER2 (ERBB2) Immune Cell Therapy,HER Immunotherapy
+HER2 (ERBB2) Vaccine,HER Vaccine
+HER2 Inhibitor,HER Inhibitor
+HER2-targeted immunotherapy,HER Immunotherapy
+HER3 (ERBB3) Antibody,HER Antibody
+HER3 Inhibitor,HER Inhibitor
+HER3-targeted immunotherapy,HER Immunotherapy
+HGF Antibody,HGF Antibody
+HGF-targeted immunotherapy,HGF Immunotherapy
+Hormone - Anti-androgens,Hormone Therapy
+Hormone - Anti-estrogens,Hormone Therapy
+Hormone - Anti-progestins,Hormone Therapy
+Hormone Antineoplastics,Hormone Therapy
+HRAS Inhibitor,RAS Inhibitor
+HSP90 Inhibitor,HSP Inhibitor
+IDH Inhibitor (Pan),IDH Inhibitor
+IDH1 Inhibitor,IDH Inhibitor
+IDH2 Inhibitor,IDH Inhibitor
+IDO1 Inhibitor,IDO Inhibitor
+IGF-1R Inhibitor,IGF-1R Inhibitor
+IGF-targeted immunotherapy,IGF Immunotherapy
+IGF1/2 Antibody,IGF Antibody
+IGF1R Antibody,IGF Antibody
+Immune Checkpoint Inhibitor,Immune Checkpoint Inhibitor
+IRAK1/4 Inhibitor,IRAK Inhibitor
+IRAK4 Inhibitor,IRAK Inhibitor
+JAK Inhibitor (Pan),JAK Inhibitor
+JAK Inhibitor (Pan) - ATP competitive,JAK Inhibitor
+JAK1 Inhibitor,JAK Inhibitor
+JAK1 Inhibitor - ATP competitive,JAK Inhibitor
+JAK2 Inhibitor,JAK Inhibitor
+JAK2 Inhibitor - ATP competitive,JAK Inhibitor
+JAK3 Inhibitor,JAK Inhibitor
+JAK3 Inhibitor - ATP competitive,JAK Inhibitor
+JNK Inhibitor,JNK Inhibitor
+KDM1A Inhibitor,KDM Inhibitor
+KDM4 Inhibitor,KDM Inhibitor
+KIT Inhibitor,KIT Inhibitor
+KRAS G12C inhibitor,RAS Inhibitor
+KRAS Inhibitor,RAS Inhibitor
+LAG3 Antibody,LAG Antibody
+LYN Inhibitor,LYN Inhibitor
+MCL1 Inhibitor,MCL Inhibitor
+MDM2 Inhibitor,MDM Inhibitor
+MDM4 inhibitor,MDM Inhibitor
+MEK inhibitor (Pan),MEK Inhibitor
+MEK1 Inhibitor,MEK Inhibitor
+MEK2 Inhibitor,MEK Inhibitor
+MEK4 Inhibitor,MEK Inhibitor
+MEK4 Inhibitor(obsoleted),MEK Inhibitor
+MEK5 Inhibitor,MEK Inhibitor
+MEK5 Inhibitor(obsoleted),MEK Inhibitor
+MERTK Antibody,MERTK Antibody
+MERTK Inhibitor,MERTK Inhibitor
+MET Antibody,MET Antibody
+MET Immune Cell Therapy,MET Immunotherapy
+MET Inhibitor,MET Inhibitor
+MNK1 Inhibitor,MNK Inhibitor
+MNK1/2 Inhibitor,MNK Inhibitor
+MNK2 Inhibitor,MNK Inhibitor
+MPS1 Inhibitor,MPS Inhibitor
+mTOR Inhibitor,MTOR Inhibitor
+mTORC1 Inhibitor,MTOR Inhibitor
+mTORC2 Inhibitor,MTOR Inhibitor
+MUC16 Targeted Therapy,MUC Targeted Therapy
+MUC16-targeted immunotherapy,MUC Immunotherapy
+NOTCH Inhibitor (Pan),NOTCH Inhibitor
+NOTCH1 Antibody,NOTCH Antibody
+NOTCH1 Inhibitor,NOTCH Inhibitor
+NOTCH2 Antibody,NOTCH Antibody
+NOTCH2 Inhibitor,NOTCH Inhibitor
+NOTCH3 Antibody,NOTCH Antibody
+NRAS Inhibitor,RAS Inhibitor
+NRAS Inhibitor(obsoleted),RAS Inhibitor
+OX40 Antibody,OX40 Antibody
+p38 MAPK Inhibitor (Pan),p38 Inhibitor
+p38-alpha Inhibitor,p38 Inhibitor
+p53 Activator,p53 Activator
+p53 Gene Therapy,p53 Gene Therapy
+p53 Inhibitor,p53 Inhibitor
+p53 Vaccine,p53 Vaccine
+Pak-I Inhibitor,PAK Inhibitor
+PARP Inhibitor (Pan),PARP Inhibitor
+PARP-1 Inhibitor,PARP Inhibitor
+PARP-2 Inhibitor,PARP Inhibitor
+PD-L1/PD-1 antibody,PD-L1/PD-1 antibody
+PDGFR Inhibitor (Pan),PDGFR Inhibitor
+PDGFR-alpha Inhibitor,PDGFR Inhibitor
+PDGFR-beta Inhibitor,PDGFR Inhibitor
+PDGFRA Antibody,PDGFR Antibody
+PDK-1 Inhibitor,PDPK Inhibitor
+PDPK1 Inhibitor,PDPK Inhibitor
+PI3K Inhibitor (Pan),PI3K Inhibitor
+PIK3CA inhibitor,PI3K Inhibitor
+PIK3CB inhibitor,PI3K Inhibitor
+PIK3CD inhibitor,PI3K Inhibitor
+PIK3CG inhibitor,PI3K Inhibitor
+PIM Inhibitor (Pan),PIM Inhibitor
+PIM1 Inhibitor,PIM Inhibitor
+PIM3 Inhibitor,PIM Inhibitor
+PKA Inhibitor,PK Inhibitor
+PKC alpha Inhibitor,PK Inhibitor
+PKC beta Inhibitor,PK Inhibitor
+PKC Inhibitor (Pan),PK Inhibitor
+PLK1 Inhibitor,PLK Inhibitor
+PP2A Activator,PP2A Activator
+PP2A Inhibitor,PP2A Inhibitor
+PPM1D Inhibitor,PPM1D Inhibitor
+RAD51 Inhibitor,RAD51 Inhibitor
+RAF Inhibitor (Pan),RAF Inhibitor
+RAS Inhibitor (Pan),RAS Inhibitor
+RET Inhibitor,RET Inhibitor
+RON Inhibitor,RON Inhibitor
+ROS1 Inhibitor,ROS Inhibitor
+S6 Kinase Inhibitor,S6 Kinase Inhibitor
+SHP2 Inhibitor,SHP Inhibitor
+SIRT1 Activator,SIRT Activator
+SIRT1 Inhibitor,SIRT Inhibitor
+SIRT2 Inhibitor,SIRT Inhibitor
+SIRT3 Inhibitor,SIRT Inhibitor
+SMAC Mimetic,SMAC Mimetic
+SMO Inhibitor,SMO Inhibitor
+SMYD3 Inhibitor,SMYD3 Inhibitor
+SRC Inhibitor,SRC Inhibitor
+STAT Inhibitor,STAT Inhibitor
+STAT1 Inhibitor,STAT Inhibitor
+STAT3 Inhibitor,STAT Inhibitor
+STAT5 Inhibitor,STAT Inhibitor
+SYK Inhibitor,SYK Inhibitor
+Tankyrase Inhibitor,Tankyrase Inhibitor
+TGFB (Pan) Antibody,TGFB Antibody
+TGFB inhibitor,TGFB Inhibitor
+TGFB targeted immunotherapy,TGFB Immunotherapy
+TGFB2 Vaccine,TGFB Vaccine
+TGFBR inhibitor (pan),TGFB inhibitor
+TGFBR1 inhibitor,TGFB inhibitor
+TGFBR2 Antibody,TGFB Antibody
+TGFBR2 inhibitor,TGFB inhibitor
+TIE2 Inhibitor,TIE Inhibitor
+TIM-3 Antibody,TIM Antibody
+TLR Antibody,TLR Antibody
+TNK2 Inhibitor,TNK Inhibitor
+TOPO Inhibitor (Pan),TOPO Inhibitor
+TOPO1 inhibitor,TOPO Inhibitor
+TOPO2 inhibitor,TOPO Inhibitor
+Trk Receptor Inhibitor (Pan),TRK Inhibitor
+TrkA Receptor Inhibitor,TRK Inhibitor
+TYRO3 Inhibitor,TYRO Inhibitor
+USP1 inhibitor,USP Inhibitor
+VEGF Antibody,VEGF Antibody
+VEGF-targeted immunotherapy,VEGF Immunotherapy
+VEGFR Inhibitor (Pan),VEGF Inhibitor
+VEGFR1 Inhibitor,VEGF Inhibitor
+VEGFR2 Antibody,VEGF Antibody
+VEGFR2 Immune Cell Therapy,VEGF Immunotherapy
+VEGFR2 Inhibitor,VEGF Inhibitor
+VEGFR3 Antibody,VEGF Antibody
+VEGFR3 Inhibitor,VEGF Inhibitor
+WEE1 Inhibitor,WEE Inhibitor
+WNT Inhibitor,WNT Inhibitor
+YAP Inhibitor,YAP Inhibitor
+YES Inhibitor,YES Inhibitor
