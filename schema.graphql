@@ -13,7 +13,7 @@ interface StatementWithEvidence {
   statement: String!
 }
 
-type Gene implements NamedEntity,StatementWithEvidence {
+type Gene implements NamedEntity & StatementWithEvidence {
   id: ID!
   name: String!
   statement: String!

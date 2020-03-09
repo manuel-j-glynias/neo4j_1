@@ -426,12 +426,13 @@ def write_mutation(marker_list, pheno_list):
     location_dict = {}
     drug_dict = {}
     pathways_dict = {}
-    pp_array = []
+
     gene_counter = 0
     var_counter = 0
     if pheno_list is not None:
         write_phenotype_mutation(pheno_list,pheno_dict)
     for index, marker_object in enumerate(marker_list, start=1):
+        pp_array = []
         mutation_payload = '{"query":"mutation {'
         s = ''
         if marker_object['ProteinMarker'] in protein_dict:
