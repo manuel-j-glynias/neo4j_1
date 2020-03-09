@@ -115,7 +115,7 @@ type Drug implements NamedEntity {
   isAntineoplastic: Boolean!
   isImmuno: Boolean!
   modulator: String!
-  target: [Target]! @relation(name: "DRUGED_BY", direction: "IN")
+  target: [Target]! @relation(name: "DRUGGED_BY", direction: "IN")
 }
 
 
@@ -140,19 +140,19 @@ type Protein  implements NamedEntity{
 interface Target {
   id: ID!
   name: String!
-   drugs: [Drug]! @relation(name: "DRUGED_BY", direction: "OUT")
+   drugs: [Drug]! @relation(name: "DRUGGED_BY", direction: "OUT")
 }
 
 type ProteinTarget  implements Target{
   id: ID!
   name: String!
   protein: Protein!  @relation(name: "AS_TARGET", direction: "OUT")
-  drugs: [Drug]! @relation(name: "DRUGED_BY", direction: "OUT")
+  drugs: [Drug]! @relation(name: "DRUGGED_BY", direction: "OUT")
 }
 
 type VariantTarget implements Target{
   id: ID!
   name: String!
   protein: Protein!  @relation(name: "VARIANT_OF", direction: "OUT")
-  drugs: [Drug]! @relation(name: "DRUGED_BY", direction: "OUT")
+  drugs: [Drug]! @relation(name: "DRUGGED_BY", direction: "OUT")
 }

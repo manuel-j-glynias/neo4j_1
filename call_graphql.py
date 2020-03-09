@@ -305,7 +305,7 @@ def get_authors_names(author):
     surname = l[0].replace("'", "_")
     ll = l[1].split('.')
     first = ll[0]
-    if len(ll) > 1 and ll[1] is not '':
+    if len(ll) > 1 and ll[1] != '':
         middle = ll[1]
     else:
         middle = '_'
